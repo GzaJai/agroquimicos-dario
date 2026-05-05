@@ -130,7 +130,8 @@
 <!-- Minimal Navigation -->
 <custom-navbar></custom-navbar>
 <script src="./navbar.js"></script>
-<main class="pt-16">
+<script src="./footer.js"></script>
+<main class="pt-14 md:pt-16">
 <!-- Clean Hero Section -->
 <section class="relative h-[80vh] min-h-[600px] flex items-center overflow-hidden bg-neutral-900">
 <div class="absolute inset-0 z-0">
@@ -276,14 +277,14 @@
 <div class="flex gap-4">
 <span class="material-symbols-outlined text-primary" data-icon="location_on">location_on</span>
 <div>
-<p class="font-bold text-sm">Luján de Cuyo</p>
-<p class="text-neutral-500 text-xs">Acceso Sur y Quintana, Mendoza, Argentina</p>
+<p class="font-bold text-sm">Villa Tulumaya</p>
+<p class="text-neutral-500 text-xs">Belgrano 896, M5533, Mendoza, Argentina</p>
 </div>
 </div>
 <div class="flex gap-4">
 <span class="material-symbols-outlined text-primary" data-icon="call">call</span>
 <div>
-<p class="font-bold text-sm">+54 261 498-XXXX</p>
+<p class="font-bold text-sm">0261 494-1114</p>
 <p class="text-neutral-500 text-xs">Atención Comercial: Lun a Vie 8:00 - 18:00</p>
 </div>
 </div>
@@ -305,51 +306,5 @@
 </div>
 </section>
 </main>
-<!-- Compact & Efficient Footer -->
-<footer class="bg-neutral-50 border-t border-neutral-100">
-<div class="max-w-7xl mx-auto px-6 md:px-12 py-10">
-<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-10">
-<div class="col-span-2 lg:col-span-1">
-<div class="text-base font-bold text-neutral-900 mb-3">Agroquímicos Darío</div>
-<p class="text-neutral-500 text-xs leading-relaxed max-w-xs">
-                    Soluciones integrales para el campo en la región de Cuyo. Calidad, trayectoria y respaldo.
-                </p>
-</div>
-<div class="space-y-3">
-<p class="text-[10px] font-bold text-neutral-400 uppercase tracking-widest">Navegación</p>
-<ul class="text-xs space-y-2 text-neutral-600">
-<li><a class="hover:text-primary transition-colors" href="./index.html">Inicio</a></li>
-<li><a class="hover:text-primary transition-colors" href="./catalogo.html">Catálogo</a></li>
-<li><a class="hover:text-primary transition-colors" href="./aboout.html">Nosotros</a></li>
-</ul>
-</div>
-<div class="space-y-3">
-<p class="text-[10px] font-bold text-neutral-400 uppercase tracking-widest">Productos</p>
-<ul class="text-xs space-y-2 text-neutral-600">
-<li><a class="hover:text-primary transition-colors" href="./catalogo.html">Semillas</a></li>
-<li><a class="hover:text-primary transition-colors" href="./catalogo.html">Nutrición</a></li>
-<li><a class="hover:text-primary transition-colors" href="./catalogo.html">Maquinaria</a></li>
-</ul>
-</div>
-<div class="col-span-2 md:col-span-1 lg:col-span-2 space-y-3">
-<p class="text-[10px] font-bold text-neutral-400 uppercase tracking-widest">Newsletter</p>
-<div class="flex max-w-sm">
-<input class="bg-white border-neutral-200 text-xs px-4 py-2 w-full rounded-l-md focus:ring-0 focus:border-primary outline-none" placeholder="Email" type="email"/>
-<button class="bg-primary text-white px-4 py-2 rounded-r-md">
-<span class="material-symbols-outlined !text-sm" data-icon="send">send</span>
-</button>
-</div>
-</div>
-</div>
-<div class="pt-8 border-t border-neutral-200 flex flex-col sm:flex-row justify-between items-center gap-4">
-<div class="text-neutral-400 text-[10px] uppercase font-medium tracking-wider">
-                © 2026 Agroquímicos Darío. Mendoza, Argentina.
-            </div>
-<div class="flex gap-5">
-<a class="text-neutral-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined !text-lg" data-icon="share">share</span></a>
-<a class="text-neutral-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined !text-lg" data-icon="verified">verified</span></a>
-</div>
-</div>
-</div>
-</footer>
+<custom-footer></custom-footer>
 </body></html>

@@ -118,7 +118,9 @@
 <!-- TopNavBar -->
 <custom-navbar></custom-navbar>
 <script src="./navbar.js"></script>
-<main class="flex-grow max-w-7xl mx-auto w-full px-10 py-16 flex gap-gutter">
+<script src="./footer.js"></script>
+<!-- Main Content -->
+<main class="flex-grow pt-24 md:pt-32 pb-24 px-6 max-w-screen-xl mx-auto w-full flex gap-gutter">
 <!-- Sidebar Filters -->
 <aside class="w-60 shrink-0 hidden lg:block space-y-10 border-r border-outline-variant pr-8">
 <div>
@@ -237,24 +239,5 @@
 </div>
 </section>
 </main>
-<!-- Compact Footer -->
-<footer class="bg-white border-t border-outline-variant py-8 px-10">
-<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-<div class="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-<div class="text-base font-bold text-primary flex items-center gap-2">
-<span class="material-symbols-outlined text-xl">eco</span>
-                Agroquímicos Darío
-            </div>
-<p class="text-xs text-on-surface-variant/60">
-                © 2026 Agroquímicos Darío. Mendoza, Argentina.
-            </p>
-</div>
-<div class="flex gap-6 text-[11px] font-bold uppercase tracking-wider text-on-surface-variant/70">
-<a class="hover:text-primary transition-colors" href="./catalogo.html">Productos</a>
-<a class="hover:text-primary transition-colors" href="./aboout.html">Nosotros</a>
-<a class="hover:text-primary transition-colors" href="#">Privacidad</a>
-<a class="hover:text-primary transition-colors" href="#">Regulaciones</a>
-</div>
-</div>
-</footer>
+<custom-footer></custom-footer>
 </body></html>

@@ -20,7 +20,7 @@ class Navbar extends HTMLElement {
 
         this.innerHTML = `
         <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-neutral-100 transition-all duration-300">
-            <div class="flex justify-between items-center h-16 px-6 md:px-12 max-w-7xl mx-auto">
+            <div class="flex justify-between items-center h-14 md:h-16 px-4 md:px-12 max-w-7xl mx-auto">
                 <a href="./index.html" class="flex items-center gap-2">
                     <img src="./logo.png" alt="Agroquímicos Darío Logo" class="h-10 w-auto" />
                     <span class="text-xl font-bold tracking-tight text-primary font-headline-sm hidden sm:block">Agroquímicos Darío</span>
@@ -28,7 +28,7 @@ class Navbar extends HTMLElement {
                 <div class="hidden md:flex items-center gap-10 font-manrope text-sm font-medium">
                     ${renderLinks()}
                 </div>
-                <a href="./contact.html" class="bg-primary text-on-primary px-5 py-2 rounded-full font-label-bold text-xs uppercase hover:bg-primary/90 transition-all inline-block">
+                <a href="./contact.html" class="bg-primary text-on-primary px-3 py-1.5 md:px-5 md:py-2 rounded-full font-label-bold text-[10px] md:text-xs uppercase hover:bg-primary/90 transition-all inline-block">
                     Presupuesto
                 </a>
             </div>

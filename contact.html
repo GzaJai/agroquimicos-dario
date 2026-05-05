@@ -103,11 +103,12 @@
     </script>
 </head>
 <body class="bg-background text-on-background min-h-screen flex flex-col font-body-md">
-<!-- TopNavBar Component -->
+<!-- Navigation -->
 <custom-navbar></custom-navbar>
 <script src="./navbar.js"></script>
+<script src="./footer.js"></script>
 <!-- Main Content -->
-<main class="flex-grow pt-32 pb-24 px-6 max-w-screen-xl mx-auto w-full">
+<main class="flex-grow pt-20 md:pt-32 pb-24 px-6 max-w-screen-xl mx-auto w-full">
 <div class="text-center mb-16">
 <h1 class="font-headline-xl text-headline-xl text-primary mb-6">Contáctanos y Solicitá un Presupuesto</h1>
 <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Ponte en contacto con nuestros expertos para obtener soluciones agrícolas especializadas. Ya sea que necesites información sobre productos o un presupuesto personalizado, estamos aquí para ayudarte.</p>
@@ -164,7 +165,7 @@
 </div>
 <div>
 <h4 class="font-label-bold text-label-bold text-on-surface mb-1 uppercase tracking-wider">Ubicación</h4>
-<p class="font-body-md text-on-surface-variant">Ruta Provincial 15 Km 28, Luján de Cuyo, Mendoza, Argentina</p>
+<p class="font-body-md text-on-surface-variant">Belgrano 896, M5533 Villa Tulumaya, Mendoza, Argentina</p>
 </div>
 </div>
 <div class="flex items-start gap-6">
@@ -173,7 +174,7 @@
 </div>
 <div>
 <h4 class="font-label-bold text-label-bold text-on-surface mb-1 uppercase tracking-wider">Contacto</h4>
-<p class="font-body-md text-on-surface-variant">+54 9 261 555-0192</p>
+<p class="font-body-md text-on-surface-variant">0261 494-1114</p>
 <p class="text-sm text-outline mt-1 italic">Disponible para mensajes de WhatsApp</p>
 </div>
 </div>
@@ -213,20 +214,5 @@
 </div>
 </div>
 </main>
-<!-- Compact Footer Component -->
-<footer class="bg-surface-container-low border-t border-surface-variant py-8 px-6">
-<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-<div class="flex flex-col items-center md:items-start gap-2">
-<span class="text-lg font-extrabold text-primary">Agroquímicos Darío</span>
-<p class="text-sm text-on-surface-variant">© 2026 Agroquímicos Darío. Todos los derechos reservados.</p>
-</div>
-<div class="flex flex-wrap justify-center gap-x-8 gap-y-2">
-<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="./catalogo.html">Semillas</a>
-<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="./catalogo.html">Nutrición</a>
-<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="./catalogo.html">Protección</a>
-<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="#">Privacidad</a>
-<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="#">Regulaciones</a>
-</div>
-</div>
-</footer>
+<custom-footer></custom-footer>
 </body></html>
