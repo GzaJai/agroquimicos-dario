@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contacto y Cotizaciones - Agroquímicos Darío</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&amp;family=Work+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed": "#95f1ff",
+                        "on-error-container": "#93000a",
+                        "surface": "#ffffff",
+                        "on-secondary-container": "#265c82",
+                        "on-primary-fixed": "#00210c",
+                        "on-tertiary-container": "#f7feff",
+                        "background": "#fbfcfc",
+                        "surface-container": "#f3f4f5",
+                        "on-primary-fixed-variant": "#005228",
+                        "inverse-on-surface": "#f0f1f2",
+                        "secondary-container": "#a3d4ff",
+                        "secondary-fixed-dim": "#9accf7",
+                        "on-tertiary-fixed-variant": "#004f57",
+                        "on-tertiary-fixed": "#001f24",
+                        "on-secondary": "#ffffff",
+                        "surface-container-highest": "#e1e3e4",
+                        "on-secondary-fixed": "#001e31",
+                        "surface-bright": "#f8f9fa",
+                        "primary-fixed-dim": "#69dd8e",
+                        "on-secondary-fixed-variant": "#0c4b6f",
+                        "inverse-primary": "#69dd8e",
+                        "tertiary-fixed-dim": "#6bd6e5",
+                        "on-primary": "#ffffff",
+                        "error": "#ba1a1a",
+                        "primary-container": "#008645",
+                        "on-tertiary": "#ffffff",
+                        "tertiary": "#006671",
+                        "secondary": "#2e6388",
+                        "on-surface-variant": "#5a645a",
+                        "error-container": "#ffdad6",
+                        "surface-container-low": "#f8f9fa",
+                        "tertiary-container": "#00818e",
+                        "on-error": "#ffffff",
+                        "outline": "#dee2de",
+                        "on-background": "#191c1d",
+                        "secondary-fixed": "#cbe6ff",
+                        "on-surface": "#191c1d",
+                        "primary-fixed": "#86faa8",
+                        "surface-container-high": "#e7e8e9",
+                        "surface-tint": "#006d37",
+                        "outline-variant": "#e1e3e4",
+                        "on-primary-container": "#f6fff4",
+                        "primary": "#006a36",
+                        "inverse-surface": "#2e3132",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-dim": "#d9dadb",
+                        "surface-variant": "#f1f3f1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.375rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "sm": "12px",
+                        "md": "24px",
+                        "xs": "4px",
+                        "lg": "48px",
+                        "base": "8px",
+                        "xl": "80px",
+                        "margin": "32px",
+                        "gutter": "32px"
+                    },
+                    "fontFamily": {
+                        "label-caps": ["Work Sans", "sans-serif"],
+                        "headline-sm": ["Manrope", "sans-serif"],
+                        "label-bold": ["Work Sans", "sans-serif"],
+                        "body-sm": ["Work Sans", "sans-serif"],
+                        "body-md": ["Work Sans", "sans-serif"],
+                        "body-lg": ["Work Sans", "sans-serif"],
+                        "headline-md": ["Manrope", "sans-serif"],
+                        "headline-xl": ["Manrope", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "label-caps": ["12px", { "lineHeight": "1", "fontWeight": "700" }],
+                        "headline-sm": ["20px", { "lineHeight": "1.4", "fontWeight": "600" }],
+                        "label-bold": ["14px", { "lineHeight": "1.2", "letterSpacing": "0.02em", "fontWeight": "600" }],
+                        "body-sm": ["14px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "body-md": ["15px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["28px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "headline-xl": ["40px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-body-md">
+<!-- TopNavBar Component -->
+<custom-navbar></custom-navbar>
+<script src="./navbar.js"></script>
+<!-- Main Content -->
+<main class="flex-grow pt-32 pb-24 px-6 max-w-screen-xl mx-auto w-full">
+<div class="text-center mb-16">
+<h1 class="font-headline-xl text-headline-xl text-primary mb-6">Contáctanos y Solicitá un Presupuesto</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">Ponte en contacto con nuestros expertos para obtener soluciones agrícolas especializadas. Ya sea que necesites información sobre productos o un presupuesto personalizado, estamos aquí para ayudarte.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<!-- Contact Form Section -->
+<div class="space-y-8">
+<h2 class="font-headline-md text-headline-md text-on-surface">Envíanos un Mensaje</h2>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-1.5">
+<label class="block font-label-bold text-label-bold text-on-surface-variant" for="firstName">Nombre</label>
+<input class="w-full bg-white border border-outline-variant rounded px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" id="firstName" placeholder="Juan" type="text"/>
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-bold text-label-bold text-on-surface-variant" for="lastName">Apellido</label>
+<input class="w-full bg-white border border-outline-variant rounded px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" id="lastName" placeholder="Pérez" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-1.5">
+<label class="block font-label-bold text-label-bold text-on-surface-variant" for="email">Dirección de Correo</label>
+<input class="w-full bg-white border border-outline-variant rounded px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" id="email" placeholder="juan@ejemplo.com" type="email"/>
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-bold text-label-bold text-on-surface-variant" for="phone">Número de Teléfono</label>
+<input class="w-full bg-white border border-outline-variant rounded px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all" id="phone" placeholder="+54 9 261 123-4567" type="tel"/>
+</div>
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-bold text-label-bold text-on-surface-variant" for="subject">Asunto</label>
+<select class="w-full bg-white border border-outline-variant rounded px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all appearance-none cursor-pointer" id="subject">
+<option>Solicitar un Presupuesto</option>
+<option>Información de Producto</option>
+<option>Soporte Técnico</option>
+<option>Otro</option>
+</select>
+</div>
+<div class="space-y-1.5">
+<label class="block font-label-bold text-label-bold text-on-surface-variant" for="message">Mensaje</label>
+<textarea class="w-full bg-white border border-outline-variant rounded px-4 py-3 focus:border-primary focus:ring-1 focus:ring-primary outline-none transition-all resize-none" id="message" placeholder="¿Cómo podemos ayudarte?" rows="6"></textarea>
+</div>
+<button class="bg-primary text-on-primary font-label-bold text-label-bold px-8 py-4 rounded hover:bg-primary-container transition-colors w-full md:w-auto" type="submit">Enviar Solicitud</button>
+</form>
+</div>
+<!-- Contact Info & Map Section -->
+<div class="space-y-12">
+<div class="space-y-10">
+<h2 class="font-headline-md text-headline-md text-on-surface">Contacto Directo</h2>
+<div class="space-y-8">
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 rounded-full bg-primary-container/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<h4 class="font-label-bold text-label-bold text-on-surface mb-1 uppercase tracking-wider">Ubicación</h4>
+<p class="font-body-md text-on-surface-variant">Ruta Provincial 15 Km 28, Luján de Cuyo, Mendoza, Argentina</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 rounded-full bg-primary-container/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<h4 class="font-label-bold text-label-bold text-on-surface mb-1 uppercase tracking-wider">Contacto</h4>
+<p class="font-body-md text-on-surface-variant">+54 9 261 555-0192</p>
+<p class="text-sm text-outline mt-1 italic">Disponible para mensajes de WhatsApp</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 rounded-full bg-primary-container/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<h4 class="font-label-bold text-label-bold text-on-surface mb-1 uppercase tracking-wider">Email</h4>
+<p class="font-body-md text-on-surface-variant">ventas@agroquimicosdario.com.ar</p>
+</div>
+</div>
+<div class="flex items-start gap-6">
+<div class="w-12 h-12 rounded-full bg-surface-container text-on-surface flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<div>
+<h4 class="font-label-bold text-label-bold text-on-surface mb-1 uppercase tracking-wider">Horario de Atención</h4>
+<div class="grid grid-cols-2 gap-x-8 gap-y-1 font-body-md text-on-surface-variant">
+<span>Lun - Vie:</span> <span>8:00 - 18:00</span>
+<span>Sábados:</span> <span>8:00 - 13:00</span>
+<span class="text-outline">Domingos:</span> <span class="text-outline">Cerrado</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Map Container -->
+<div class="rounded-xl overflow-hidden border border-outline-variant shadow-sm h-72 bg-surface-container relative group">
+<img alt="Map Location" class="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH3bJOT-rXIfvsM2GvVFVccycUvjdmc29j_MdRB_EEJKc9wvjvvFRQU-ApVHgZqU2UfcayZ-oRUrCVVGlPnY6ffYWK5o81Xyd4DUHf0edRhsF7lVrMgu8NTyoTSsBa0vWcuLTLBuO1b6UhWpZUJ5Cfh_TjVMIMuGiKptukFijWHlDNkE2N4Gvy8FdoD-jKGsR5KRZLB5dhhBBh-0JbOhczZSSltq7izGNd-hwGDbC724yl731HiOusIeY9ubRsiut1GIl6SZay5B_f"/>
+<div class="absolute inset-0 flex items-center justify-center bg-black/5 group-hover:bg-transparent transition-colors">
+<button class="bg-secondary text-on-secondary font-label-bold text-label-bold px-6 py-2.5 rounded-full shadow-lg hover:bg-secondary-container hover:text-on-secondary-container transition-all flex items-center gap-2 transform hover:scale-105">
+<span class="material-symbols-outlined text-[18px]">map</span> Abrir en Maps
+                    </button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Compact Footer Component -->
+<footer class="bg-surface-container-low border-t border-surface-variant py-8 px-6">
+<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col items-center md:items-start gap-2">
+<span class="text-lg font-extrabold text-primary">Agroquímicos Darío</span>
+<p class="text-sm text-on-surface-variant">© 2026 Agroquímicos Darío. Todos los derechos reservados.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-2">
+<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="./catalogo.html">Semillas</a>
+<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="./catalogo.html">Nutrición</a>
+<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="./catalogo.html">Protección</a>
+<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="#">Privacidad</a>
+<a class="text-xs font-label-bold text-on-surface-variant hover:text-primary uppercase tracking-widest transition-colors" href="#">Regulaciones</a>
+</div>
+</div>
+</footer>
+</body></html>
